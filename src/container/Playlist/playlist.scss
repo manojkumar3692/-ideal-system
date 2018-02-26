@@ -1,0 +1,32 @@
+.playlist {
+  h1 {
+    font-size: 14px;
+    font-weight: 300;
+    transition: 1s linear;
+  }
+    &__banner {
+
+      background-image: url("../../assets/images/bg.jpg");
+      height: 300px;
+      background-size: 100% 200%;
+      background-position: 92px -236px;
+    }
+  &__action {
+    button {
+      background-color: #0097a7;
+      margin-right: 20px;
+      color: #fff;
+      height: 30px;
+      width:100px;
+      border: none;
+      text-transform: uppercase;
+      transition: 1s linear;
+      cursor: pointer;
+      &:hover {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #0097a7;
+      }
+    }
+  }
+}
